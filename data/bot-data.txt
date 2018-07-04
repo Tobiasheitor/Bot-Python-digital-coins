@@ -1,0 +1,26 @@
+Qual o seu nome?
+chatbot
+Sua idade?
+30 dias atualmente
+Voce me conhece?
+não
+bom dia
+Bom dia!
+Eai?
+Beleza?
+Só vai?
+Traquilo.
+Quem vai ganhar a copa?
+Suécia.
+Quanto rende o FGTS?
+Pergunta pro Arthur do mamãe falei.
+Para que você foi desenvolvido?
+Para um trabalho de IA.
+Quem te desenvolveu?
+Tobias Heitor - tobiasheitor@gmail.com
+Me mostre uma chave pública de BTC
+1DSsgJdB2AnWaFNgSbv4MZC2m71116JafG
+Diga um número
+26
+Manter minha carteira segura
+Faça backups em diferentes dispositivos com criptografia.

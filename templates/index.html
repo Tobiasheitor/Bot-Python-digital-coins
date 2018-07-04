@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h3>Bot Coins</h3>
+    <div>
+      <div id="chatbox" class="chat-large">
+        
+      </div>
+      <div id="userInput"  class="chat-large">
+        <input id="textInput" type="text" name="msg" placeholder="Mensagem">
+        <input id="buttonInput" type="submit" value="Enviar">
+      </div>
+      
+      <script>
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"> <span>' + rawText + '</span>  <img class="icon" src="static/idiot.png" alt="Avatar"> </p>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+
+          $.get("/get", { msg: rawText }).done(function(data) {
+            var botHtml = '<p class="botText"> <img class="icon" src="static/robo-trader.png" alt="Avatar"> <span>' + data + '</span></p>';
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          });
+        }
+        $("#textInput").keypress(function(e) {
+          if(e.which == 13) {
+            getBotResponse();
+          }
+        });
+        $("#buttonInput").click(function() {
+          getBotResponse();
+        })
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+O que e Ether?
+Uma moeda digital
+Quanto custa uma Ether?
+Atualmente 460 dol
+O que e ICO?
+Initial Coin Offering
+Startup
+Projeto querendo se tornar uma empresa
+O que é Ethereum?
+Uma plataforma capaz de executar contratos inteligentes e aplicações descentralizadas.
+Ethereum Virtual Machine (EVM)?
+Máquina virtual descentralizada capaz de executar scripts.
+Como foi financiado a Ethereum?
+Foi financiado como um projeto de crowdfunding.
+Quando Ethereum foi lançado?
+Em 30 de Julho de 2015.
+Como é o codigo da Ethereum?
+Ethereum é um projeto de código aberto.
+Ethereum como pagar hospedagem de site serviço?
+Com o Ether.
+Site oficial do projeto
+https://ethereum.org/
